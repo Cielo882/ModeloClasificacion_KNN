@@ -1,0 +1,28 @@
+# Ignorar archivos y directorios de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pyzw
+*.pyproj
+*.pycachefile
+*.py~
+
+
+# Ignorar archivos de entorno virtual de Python (por ejemplo, venv, env, etc.)
+venv/
+env/
+
+# Ignorar archivos generados por VS Code
+.vscode/
+
+# Ignorar archivos generados por Jupyter
+.ipynb_checkpoints/
+
+# Ignorar archivos de texto
+*.txt
+
+# Ignorar el directorio de salida de Jupyter (generalmente se llama 'output')
+output/
